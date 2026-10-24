@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CredSafe (DocVault)
 
 ## Problem Statement
@@ -126,3 +127,6 @@ The frontend starter also provides an example of interactions with your Docvault
 ## Next Steps
 
 You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
+=======
+# CredSafe_Devday
+>>>>>>> a3b4bf5bd519e56ceee0107b497f8367f9cbcf0a
