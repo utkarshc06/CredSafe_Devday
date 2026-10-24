@@ -72,9 +72,9 @@ CredSafe implements the "Triangle of Trust" (Issuer, Holder, Verifier) in Decent
 - **Kaustubh:**
   - GitHub: [@Kaustubh2512](https://github.com/Kaustubh2512)
 - **Viraj:**
-  - GitHub: [@0xYuvi](https://github.com/virajghangale)
+  - GitHub: [@virajghangale](https://github.com/virajghangale)
 - **Mugdha:**
-  - GitHub: [@0xYuvi](https://github.com/mugdhaa0307)
+  - GitHub: [@mugdhaa0307](https://github.com/mugdhaa0307)
     
 ## Inspiration & Sources
 - **[Privado ID (formerly Polygon ID)](https://privado.id/):** For their heavy influence and groundwork in defining zero-knowledge capable, decentralized trust triangles. Their concepts on verifier dashboards highly influenced our Verifier Portal flow.
