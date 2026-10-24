@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# CredSafe (DocVault)
+# CredSafe
 
 ## Problem Statement
 Traditional digital identity systems force users to rely on centralized authorities that store and control their personal data, leading to severe privacy risks, data breaches, and a lack of user autonomy. There is a need for a decentralized identity framework that empowers users to hold and selectively disclose their verifiable credentials without depending on centralized databases.
@@ -26,7 +25,7 @@ CredSafe implements the "Triangle of Trust" (Issuer, Holder, Verifier) in Decent
 ## Setup & Run
 1. **Clone & Install:**
    ```bash
-   git clone https://github.com/0xYuvi/CredSafe.git
+   git clone https://github.com/utkarshc06/CredSafe_Devday.git
    cd CredSafe
    ```
 2. **Backend (Identity Service):**
@@ -68,13 +67,15 @@ CredSafe implements the "Triangle of Trust" (Issuer, Holder, Verifier) in Decent
 - **Institutional Onboarding:** While technically robust, onboarding major institutions and government entities as official decentralized Issuers requires significant regulatory, legal, and operational overhead that goes beyond the technical implementation.
 
 ## Team
-- **Yuvraj:**
-  - GitHub: [@0xYuvi](https://github.com/0xYuvi)
 - **Utkarsh:**
   - GitHub: [@Utkarshc06](https://github.com/Utkarshc06)
 - **Kaustubh:**
   - GitHub: [@Kaustubh2512](https://github.com/Kaustubh2512)
-
+- **Viraj:**
+  - GitHub: [@0xYuvi](https://github.com/virajghangale)
+- **Mugdha:**
+  - GitHub: [@0xYuvi](https://github.com/mugdhaa0307)
+    
 ## Inspiration & Sources
 - **[Privado ID (formerly Polygon ID)](https://privado.id/):** For their heavy influence and groundwork in defining zero-knowledge capable, decentralized trust triangles. Their concepts on verifier dashboards highly influenced our Verifier Portal flow.
 - **[W3C Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/vc-data-model/):** The core schema standard ensuring interoperability.
@@ -128,5 +129,3 @@ The frontend starter also provides an example of interactions with your Docvault
 
 You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
 =======
-# CredSafe_Devday
->>>>>>> a3b4bf5bd519e56ceee0107b497f8367f9cbcf0a
