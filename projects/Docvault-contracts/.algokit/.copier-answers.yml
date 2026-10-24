@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 1.8.1
+_src_path: gh:algorandfoundation/algokit-python-template
+author_email: yuvikakade15@gmail.com
+author_name: 0xYuvi
+contract_name: docvault
+deployment_language: python
+preset_name: starter
+project_name: Docvault-contracts
+

@@ -1,0 +1,28 @@
+services:
+  issuer-api:
+    image: waltid/issuer-api:latest
+    ports:
+      - "8000:3000"
+    environment:
+      - SERVICE_HOST=${SERVICE_HOST}
+      - ISSUER_API_PORT=${ISSUER_API_PORT}
+    extra_hosts:
+      - "localhost:host-gateway"
+    volumes:
+      - ./issuer-api/config:/waltid-issuer-api/config
+      - ./issuer-api/data:/waltid-issuer-api/data
+    restart: unless-stopped
+
+  verifier-api:
+    image: waltid/verifier-api:latest
+    ports:
+      - "8001:3000"
+    environment:
+      - SERVICE_HOST=${SERVICE_HOST}
+      - VERIFIER_API_PORT=${VERIFIER_API_PORT}
+    extra_hosts:
+      - "localhost:host-gateway"
+    volumes:
+      - ./verifier-api/config:/waltid-verifier-api/config
+      - ./verifier-api/data:/waltid-verifier-api/data
+    restart: unless-stopped
